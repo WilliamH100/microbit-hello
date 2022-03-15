@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "robotbit": "github:kittenbot/pxt-robotbit#v0.3.6"
     },
     "files": [
         "main.blocks",
@@ -14,6 +15,10 @@
     "testFiles": [
         "test.ts"
     ],
+    "targetVersions": {
+        "target": "4.0.18",
+        "targetId": "microbit"
+    },
     "supportedTargets": [
         "microbit"
     ],
